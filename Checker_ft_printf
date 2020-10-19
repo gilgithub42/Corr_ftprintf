@@ -1,0 +1,26 @@
+Correction ft_printf
+
+lancer le checker
+
+https://github.com/cclaude42/PFT_2019
+
+LANCER LA CoMMADE DANS UNE SHELL
+git clone https://github.com/gavinfielder/pft.git pft_2019 && echo "pft_2019/" >> .gitignore && cd pft_2019 && rm unit_tests.c && rm options-config.ini && git clone https://github.com/cclaude42/PFT_2019.git temp && cp temp/unit_tests.c . && cp temp/options-config.ini . && rm -rf temp
+
+
+Usage
+Warning : everytime you change your printf, you need to make re in PFT again.
+
+In the PFT_2019 repo, run make re
+
+You can now run all the tests using ./test
+
+To run only %s tests for example, you can use ./test s
+
+To run tests #42 to #84, you can use ./test 42 84
+
+Credit
+The code was written by Gavin Fielder. This is an update of the test file by cclaude, with some tests removed and some added, for easier use with the 2019 printf subject.
+
+Thanks to lnezonde and macrespo for their help debugging and their suggestions.
+
